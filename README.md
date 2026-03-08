@@ -1,4 +1,4 @@
-# NetGuard — ML-Powered Intrusion Detection System
+# NetGuard — ML-Powered Deep Packet Inspection & Intrusion Detection System
 
 ## Run NetGuard
 
@@ -128,5 +128,6 @@ You can easily extend NetGuard by:
 ---
 
 ## Summary
+
 
 NetGuard demonstrates how modern IDS systems combine deep packet inspection, machine learning, and behavioral analysis to detect both known and unknown attacks.
