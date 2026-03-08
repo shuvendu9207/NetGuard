@@ -1,0 +1,23 @@
+# NetGuard Blocking Rules (hot-reloadable)
+
+block_ips: []
+  # - "192.168.1.50"
+
+block_domains: []
+  # - "tiktok.com"
+  # - "ads.doubleclick.net"
+
+block_apps: []
+  # - YOUTUBE
+  # - P2P
+
+block_ports: []
+  # - 4444
+  # - 6667
+
+block_protocols: []
+  # - ICMP
+
+rate_limit:
+  max_packets_per_second: 10000
+  max_connections_per_minute: 500

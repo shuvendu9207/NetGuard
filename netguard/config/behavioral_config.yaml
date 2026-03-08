@@ -1,0 +1,20 @@
+# Behavioral Analysis Thresholds
+window_seconds: 60
+
+thresholds:
+  port_scan:
+    unique_dst_ports: 50
+
+  dos_flood:
+    packets_in_window: 5000
+    window_seconds: 10
+
+  brute_force:
+    failed_connections: 20
+    window_seconds: 30
+
+  network_scan:
+    unique_dst_ips: 30
+
+  data_exfiltration:
+    outbound_bytes_mb: 100

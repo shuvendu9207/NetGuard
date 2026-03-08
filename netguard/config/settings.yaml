@@ -1,0 +1,21 @@
+# NetGuard Global Settings
+capture:
+  interface: eth0
+  snaplen: 65535
+
+engine:
+  workers: 4
+  queue_maxsize: 10000
+
+alerts:
+  log_file: alerts/alerts.log
+  json_file: alerts/alerts.json
+  webhook_url: ""          # Optional: Slack / custom webhook
+
+reporting:
+  html_output_dir: reports/
+  live_refresh_seconds: 5
+
+dataset:
+  output_csv: data/captures.csv
+  buffer_size: 500
